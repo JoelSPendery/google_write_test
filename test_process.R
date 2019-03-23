@@ -16,4 +16,5 @@ conn <- dbConnect(
   dbname = 'iris'
 )
 
+# write to table in Cloud SQL
 dbWriteTable(conn, 'test_table', my_data)
